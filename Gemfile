@@ -43,3 +43,7 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+
+#Use tiny para editor
+gem 'tinymce-rails'
