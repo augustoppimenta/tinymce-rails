@@ -18,12 +18,13 @@
   </div>
   <div class="field">
     <%= f.label :body %><br>
-    <%= f.text_area :body,  :class => "tinymce"%>
     <script type="text/javascript">
       tinyMCE.init({
+        mode: 'textareas',
 
       });
     </script>
+    <%= f.text_area :body,  :class => "tinymce"%>
   </div>
   <div class="actions">
     <%= f.submit %>
